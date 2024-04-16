@@ -1,0 +1,39 @@
+{
+  "name": "iori-bot",
+  "version": "1.2.0",
+  "description": "Iori, Sencillo Pero Funcional.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "init": "sh iniciar.sh"
+  },
+  "keywords": [
+    "Whatsapp-bot",
+    "Iori-Bot",
+    "CodeError"
+  ],
+  "author": "Codeerror",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "axios": "^1.6.8",
+    "cfonts": "^3.2.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.12",
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.6",
+    "link-preview-js": "^3.0.5",
+    "lodash": "^4.17.21",
+    "mime-types": "^2.1.35",
+    "moment-timezone": "^0.5.45",
+    "ms": "^2.1.3",
+    "node-cache": "^5.1.2",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^2.7.0",
+    "ora": "^8.0.1",
+    "performance-now": "^2.1.0",
+    "pino": "^8.20.0",
+    "qrcode-terminal": "^0.12.0",
+    "yt-search": "^2.10.4"
+  }
+}
